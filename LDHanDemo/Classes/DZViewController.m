@@ -8,7 +8,7 @@
 
 #import "DZViewController.h"
 #import <Masonry/Masonry.h>
-//#import <TestHan/AAA.h>
+#import <TestHan/AAA.h>
 
 @interface DZViewController ()
 
@@ -32,7 +32,7 @@
         make.width.mas_equalTo(200.0);
     }];
 
-//    [AAA logTest];
+    [AAA logTest];
     
 //    {
 //        NSURL *iurl = [[NSBundle bundleForClass:[self class]] URLForResource:@"DZDemo.framework/YCIMlibXibHan" withExtension:@"bundle"];
