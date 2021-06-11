@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,9 +20,18 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		791403EB2673C35C00ED996E /* LDHanDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 791403DB2673C35C00ED996E /* LDHanDemo.bundle */; };
+		791403ED2673C35C00ED996E /* LDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791403E12673C35C00ED996E /* LDViewController.m */; };
+		791403EE2673C35C00ED996E /* TestXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791403E22673C35C00ED996E /* TestXibViewController.m */; };
+		791403EF2673C35C00ED996E /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791403E32673C35C00ED996E /* DZViewController.m */; };
+		791403F02673C35C00ED996E /* hYCIM_send_failure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791403E52673C35C00ED996E /* hYCIM_send_failure@3x.png */; };
+		791403F22673C35C00ED996E /* hYCIM_send_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791403E72673C35C00ED996E /* hYCIM_send_failure@2x.png */; };
+		791403F32673C35C00ED996E /* hYCIM_chat_pop_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791403E82673C35C00ED996E /* hYCIM_chat_pop_right@2x.png */; };
+		791403F42673C35C00ED996E /* hYCIM_chat_pop_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791403E92673C35C00ED996E /* hYCIM_chat_pop_right@3x.png */; };
+		791403F52673C35C00ED996E /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791403EA2673C35C00ED996E /* TestXibViewController.xib */; };
+		791403F92673C38C00ED996E /* TestHan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791403F82673C38C00ED996E /* TestHan.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A042C6CC5C07EEBB869428BB /* Pods_LDHanDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8C3FB7240DE91DE0C01E5D /* Pods_LDHanDemo_Example.framework */; };
-		AAD0F12A1C007BB3FA434CBC /* Pods_LDHanDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E83FA850ED3E1E9862B312B /* Pods_LDHanDemo_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +46,7 @@
 
 /* Begin PBXFileReference section */
 		01C604528145E634D9974740 /* Pods-LDHanDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDHanDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-LDHanDemo_Example/Pods-LDHanDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E83FA850ED3E1E9862B312B /* Pods_LDHanDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDHanDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB84AFACB6B0909D9987105 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1EB84AFACB6B0909D9987105 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2C8C3FB7240DE91DE0C01E5D /* Pods_LDHanDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDHanDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F589D7D9E84BF7801C84C3E /* Pods-LDHanDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDHanDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-LDHanDemo_Example/Pods-LDHanDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LDHanDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDHanDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +59,6 @@
 		6003F59B195388D20070C39A /* LDHanDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LDHanDemo-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LDHanDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDHanDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,11 +67,22 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D3786574F5E8B6D24496BE5 /* Pods-LDHanDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDHanDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LDHanDemo_Tests/Pods-LDHanDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		791403DB2673C35C00ED996E /* LDHanDemo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LDHanDemo.bundle; sourceTree = "<group>"; };
+		791403DD2673C35C00ED996E /* LDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDViewController.h; sourceTree = "<group>"; };
+		791403DE2673C35C00ED996E /* TestXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXibViewController.h; sourceTree = "<group>"; };
+		791403DF2673C35C00ED996E /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
+		791403E12673C35C00ED996E /* LDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDViewController.m; sourceTree = "<group>"; };
+		791403E22673C35C00ED996E /* TestXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXibViewController.m; sourceTree = "<group>"; };
+		791403E32673C35C00ED996E /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
+		791403E52673C35C00ED996E /* hYCIM_send_failure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hYCIM_send_failure@3x.png"; sourceTree = "<group>"; };
+		791403E72673C35C00ED996E /* hYCIM_send_failure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hYCIM_send_failure@2x.png"; sourceTree = "<group>"; };
+		791403E82673C35C00ED996E /* hYCIM_chat_pop_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hYCIM_chat_pop_right@2x.png"; sourceTree = "<group>"; };
+		791403E92673C35C00ED996E /* hYCIM_chat_pop_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hYCIM_chat_pop_right@3x.png"; sourceTree = "<group>"; };
+		791403EA2673C35C00ED996E /* TestXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestXibViewController.xib; sourceTree = "<group>"; };
+		791403F82673C38C00ED996E /* TestHan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestHan.framework; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCD28580F5C50D0B7829BDC1 /* Pods-LDHanDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDHanDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-LDHanDemo_Tests/Pods-LDHanDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA49348A704D87320A61CE14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FA92BB36E1BDCD553DAF398E /* LDHanDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LDHanDemo.podspec; path = ../LDHanDemo.podspec; sourceTree = "<group>"; };
+		DA49348A704D87320A61CE14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA92BB36E1BDCD553DAF398E /* LDHanDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDHanDemo.podspec; path = ../LDHanDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791403F92673C38C00ED996E /* TestHan.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -88,7 +105,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				AAD0F12A1C007BB3FA434CBC /* Pods_LDHanDemo_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +114,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				791403D92673C35C00ED996E /* LDHanDemo */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LDHanDemo */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -124,7 +141,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				2C8C3FB7240DE91DE0C01E5D /* Pods_LDHanDemo_Example.framework */,
-				1E83FA850ED3E1E9862B312B /* Pods_LDHanDemo_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,11 +148,10 @@
 		6003F593195388D20070C39A /* Example for LDHanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				791403F82673C38C00ED996E /* TestHan.framework */,
 				6003F59C195388D20070C39A /* DZAppDelegate.h */,
 				6003F59D195388D20070C39A /* DZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DZViewController.h */,
-				6003F5A6195388D20070C39A /* DZViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,11 +205,52 @@
 			children = (
 				4F589D7D9E84BF7801C84C3E /* Pods-LDHanDemo_Example.debug.xcconfig */,
 				01C604528145E634D9974740 /* Pods-LDHanDemo_Example.release.xcconfig */,
-				7D3786574F5E8B6D24496BE5 /* Pods-LDHanDemo_Tests.debug.xcconfig */,
-				CCD28580F5C50D0B7829BDC1 /* Pods-LDHanDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		791403D92673C35C00ED996E /* LDHanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				791403DA2673C35C00ED996E /* Res */,
+				791403DC2673C35C00ED996E /* Classes */,
+				791403E42673C35C00ED996E /* Assets */,
+			);
+			name = LDHanDemo;
+			path = ../LDHanDemo;
+			sourceTree = "<group>";
+		};
+		791403DA2673C35C00ED996E /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				791403DB2673C35C00ED996E /* LDHanDemo.bundle */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		791403DC2673C35C00ED996E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				791403DD2673C35C00ED996E /* LDViewController.h */,
+				791403DE2673C35C00ED996E /* TestXibViewController.h */,
+				791403DF2673C35C00ED996E /* DZViewController.h */,
+				791403E12673C35C00ED996E /* LDViewController.m */,
+				791403E22673C35C00ED996E /* TestXibViewController.m */,
+				791403E32673C35C00ED996E /* DZViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		791403E42673C35C00ED996E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				791403E52673C35C00ED996E /* hYCIM_send_failure@3x.png */,
+				791403E72673C35C00ED996E /* hYCIM_send_failure@2x.png */,
+				791403E82673C35C00ED996E /* hYCIM_chat_pop_right@2x.png */,
+				791403E92673C35C00ED996E /* hYCIM_chat_pop_right@3x.png */,
+				791403EA2673C35C00ED996E /* TestXibViewController.xib */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +279,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LDHanDemo_Tests" */;
 			buildPhases = (
-				5D81542DE751DC7074BE91C6 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -258,6 +313,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +333,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791403EB2673C35C00ED996E /* LDHanDemo.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				791403F42673C35C00ED996E /* hYCIM_chat_pop_right@3x.png in Resources */,
+				791403F22673C35C00ED996E /* hYCIM_send_failure@2x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				791403F32673C35C00ED996E /* hYCIM_chat_pop_right@2x.png in Resources */,
+				791403F52673C35C00ED996E /* TestXibViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				791403F02673C35C00ED996E /* hYCIM_send_failure@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,37 +386,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LDHanDemo_Example/Pods-LDHanDemo_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LDHanDemo/LDHanDemo.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDHanDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LDHanDemo_Example/Pods-LDHanDemo_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D81542DE751DC7074BE91C6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LDHanDemo_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,8 +404,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791403ED2673C35C00ED996E /* LDViewController.m in Sources */,
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
+				791403EE2673C35C00ED996E /* TestXibViewController.m in Sources */,
+				791403EF2673C35C00ED996E /* DZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +536,10 @@
 			baseConfigurationReference = 4F589D7D9E84BF7801C84C3E /* Pods-LDHanDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LDHanDemo",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDHanDemo/LDHanDemo-Prefix.pch";
 				INFOPLIST_FILE = "LDHanDemo/LDHanDemo-Info.plist";
@@ -510,6 +556,10 @@
 			baseConfigurationReference = 01C604528145E634D9974740 /* Pods-LDHanDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LDHanDemo",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDHanDemo/LDHanDemo-Prefix.pch";
 				INFOPLIST_FILE = "LDHanDemo/LDHanDemo-Info.plist";
@@ -523,7 +573,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D3786574F5E8B6D24496BE5 /* Pods-LDHanDemo_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +597,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCD28580F5C50D0B7829BDC1 /* Pods-LDHanDemo_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,0 +1,22 @@
+{
+  "name": "LDHanDemo",
+  "version": "0.1.0",
+  "summary": "A short description of LDHanDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hyaping888/LDHanDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hyaping888": "245921027@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hyaping888/LDHanDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LDHanDemo/Classes/**/*"
+}

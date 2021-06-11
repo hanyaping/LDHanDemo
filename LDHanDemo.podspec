@@ -21,16 +21,37 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hyaping888/LDHanDemo'
+  s.homepage         = 'https://github.com/hanyaping/LDHanDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hyaping888' => '245921027@qq.com' }
-  s.source           = { :git => 'https://github.com/hyaping888/LDHanDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hanyaping/LDHanDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
+  
+  
+  
+  
+  s.public_header_files = "LDHanDemo/**/*.h"
+  
   s.source_files = 'LDHanDemo/Classes/**/*'
+  
+  s.resources = 'LDHanDemo/Res/LDHanDemo.bundle','LDHanDemo/Assets/**/*'
+    
+  s.ios.vendored_frameworks = 'Example/LDHanDemo/TestHan.framework'
+  
+  s.frameworks = "UIKit", "Foundation"
+  
+  s.dependency 'Masonry'
+  
+  s.static_framework  =  true
+  
+  
+  
+  
+  
   
   # s.resource_bundles = {
   #   'LDHanDemo' => ['LDHanDemo/Assets/*.png']
