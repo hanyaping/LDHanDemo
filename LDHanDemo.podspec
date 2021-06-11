@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDHanDemo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LDHanDemo.'
+  s.version          = '0.2.0'
+  s.summary          = '这是一个组件工程'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   
   s.resources = 'LDHanDemo/Res/LDHanDemo.bundle','LDHanDemo/Assets/**/*'
     
-  s.ios.vendored_frameworks = 'Example/LDHanDemo/TestHan.framework'
+#  s.ios.vendored_frameworks = 'Example/LDHanDemo/TestHan.framework'
   
   s.frameworks = "UIKit", "Foundation"
   

@@ -29,7 +29,7 @@
 		791403F32673C35C00ED996E /* hYCIM_chat_pop_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791403E82673C35C00ED996E /* hYCIM_chat_pop_right@2x.png */; };
 		791403F42673C35C00ED996E /* hYCIM_chat_pop_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791403E92673C35C00ED996E /* hYCIM_chat_pop_right@3x.png */; };
 		791403F52673C35C00ED996E /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791403EA2673C35C00ED996E /* TestXibViewController.xib */; };
-		791403F92673C38C00ED996E /* TestHan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791403F82673C38C00ED996E /* TestHan.framework */; };
+		791404072673C5AA00ED996E /* TestHan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791404062673C5AA00ED996E /* TestHan.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A042C6CC5C07EEBB869428BB /* Pods_LDHanDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8C3FB7240DE91DE0C01E5D /* Pods_LDHanDemo_Example.framework */; };
 /* End PBXBuildFile section */
@@ -79,7 +79,7 @@
 		791403E82673C35C00ED996E /* hYCIM_chat_pop_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hYCIM_chat_pop_right@2x.png"; sourceTree = "<group>"; };
 		791403E92673C35C00ED996E /* hYCIM_chat_pop_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hYCIM_chat_pop_right@3x.png"; sourceTree = "<group>"; };
 		791403EA2673C35C00ED996E /* TestXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestXibViewController.xib; sourceTree = "<group>"; };
-		791403F82673C38C00ED996E /* TestHan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestHan.framework; sourceTree = "<group>"; };
+		791404062673C5AA00ED996E /* TestHan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestHan.framework; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA49348A704D87320A61CE14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA92BB36E1BDCD553DAF398E /* LDHanDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDHanDemo.podspec; path = ../LDHanDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791403F92673C38C00ED996E /* TestHan.framework in Frameworks */,
+				791404072673C5AA00ED996E /* TestHan.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -148,7 +148,7 @@
 		6003F593195388D20070C39A /* Example for LDHanDemo */ = {
 			isa = PBXGroup;
 			children = (
-				791403F82673C38C00ED996E /* TestHan.framework */,
+				791404062673C5AA00ED996E /* TestHan.framework */,
 				6003F59C195388D20070C39A /* DZAppDelegate.h */,
 				6003F59D195388D20070C39A /* DZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
