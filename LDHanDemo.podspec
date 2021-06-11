@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDHanDemo'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = '这是一个组件工程'
 
 # This description is used to generate tags and improve search results.
