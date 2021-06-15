@@ -36,22 +36,29 @@
 //    return self;
 //}
 
-- (instancetype)init
-{
-//    self = [super init];
-    // 获取bundle参数
-    NSBundle *bundle = [NSBundle bundleForClass:self.class];
-    self = [super initWithNibName:NSStringFromClass([self class]) bundle:bundle];
-    if (self) {
-        
-    }
-    return self;
-}
+//- (instancetype)init
+//{
+////    self = [super init];
+//    // 获取bundle参数
+//    NSBundle *bundle = [NSBundle bundleForClass:self.class];
+//    self = [super initWithNibName:NSStringFromClass([self class]) bundle:bundle];
+//    if (self) {
+//        
+//    }
+//    return self;
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-//    [[NSBundle mainBundle] loadNibNamed:@"yourframework.framework/yourXibName" owner:nil options:nil]
+    
+    
+    NSBundle *bundle = [NSBundle bundleForClass:self.class];
+    UIImage *image = [UIImage imageNamed:@"hYCIM_send_failure" inBundle:bundle compatibleWithTraitCollection:nil];
+    
+    UIImageView *img = [[UIImageView alloc] initWithImage:image];
+    img.frame = CGRectMake(100, 200, 100, 100);
+    [self.view addSubview:img];
 }
 
 /*
