@@ -58,9 +58,11 @@
     UIImage *image = [UIImage imageNamed:@"hYCIM_send_failure" inBundle:bundle compatibleWithTraitCollection:nil];
     
     
-    NSString* htmlPath = [bundle pathForResource:@"Resources/TestXibViewController" ofType:@"xib"];
+//    NSString* htmlPath = [bundle pathForResource:@"Versions/TestXibViewController" ofType:@"xib"];
    
-    NSLog(@"---===---======%@",htmlPath);
+    
+    
+    NSLog(@"---===---======%@",bundle.bundlePath);
     
     
     UIImageView *img = [[UIImageView alloc] initWithImage:image];
