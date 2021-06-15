@@ -53,10 +53,18 @@
     
     
     
+    
     NSBundle *bundle = [NSBundle bundleForClass:self.class];
     UIImage *image = [UIImage imageNamed:@"hYCIM_send_failure" inBundle:bundle compatibleWithTraitCollection:nil];
     
+    
+    NSString* htmlPath = [bundle pathForResource:@"Resources/TestXibViewController" ofType:@"xib"];
+   
+    NSLog(@"---===---======%@",htmlPath);
+    
+    
     UIImageView *img = [[UIImageView alloc] initWithImage:image];
+    img.backgroundColor = [UIColor blueColor];
     img.frame = CGRectMake(100, 200, 100, 100);
     [self.view addSubview:img];
 }
