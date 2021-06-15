@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDHanDemo'
-  s.version          = '0.7.0'
+  s.version          = '0.3.0'
   s.summary          = '这是一个组件工程'
 
 # This description is used to generate tags and improve search results.
@@ -26,6 +26,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hyaping888' => '245921027@qq.com' }
   s.source           = { :git => 'https://github.com/hanyaping/LDHanDemo.git', :tag => s.version.to_s }
+#s.source           = { :git => 'file:///Users/digaoao/Desktop/组件/ddd/LDHanDemo', :tag => s.version.to_s }
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -40,7 +42,7 @@ TODO: Add long description of the pod here.
   
   s.resources = 'LDHanDemo/Res/LDHanDemo.bundle','LDHanDemo/Assets/**/*'
     
-  s.ios.vendored_frameworks = 'Example/LDHanDemo/TestHan.framework'
+#  s.ios.vendored_frameworks = 'Example/LDHanDemo/TestHan.framework'
   
   s.frameworks = "UIKit", "Foundation"
   

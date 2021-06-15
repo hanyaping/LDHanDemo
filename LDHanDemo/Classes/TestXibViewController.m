@@ -36,6 +36,17 @@
 //    return self;
 //}
 
+- (instancetype)init
+{
+//    self = [super init];
+    // 获取bundle参数
+    NSBundle *bundle = [NSBundle bundleForClass:self.class];
+    self = [super initWithNibName:NSStringFromClass([self class]) bundle:bundle];
+    if (self) {
+        
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
